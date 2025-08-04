@@ -1,0 +1,506 @@
+{
+  "main": {
+    "id": "de8057e38ad6cc86",
+    "type": "split",
+    "children": [
+      {
+        "id": "0131eddcdfa88baf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "490a2f68cfe44604",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/ci_notification.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "ci_notification.excalidraw"
+            }
+          },
+          {
+            "id": "01e41064e486a824",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pipelines.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pipelines"
+            }
+          },
+          {
+            "id": "a7efa6689abc5232",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/ci_codemagic.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "ci_codemagic.excalidraw"
+            }
+          },
+          {
+            "id": "828a5568ce0f98ec",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Drawing 2024-10-07 09.28.21.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-10-07 09.28.21.excalidraw"
+            }
+          },
+          {
+            "id": "2ae7afc5e439f778",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/ci_codemagic.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "ci_codemagic.excalidraw"
+            }
+          },
+          {
+            "id": "e3b1937c4c690f3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Trigger Jenkins Job from JIRA(status change) for FREE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Trigger Jenkins Job from JIRA(status change) for FREE"
+            }
+          },
+          {
+            "id": "a270d85d4036d871",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-07-22 11.23.56.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-07-22 11.23.56.excalidraw"
+            }
+          },
+          {
+            "id": "475429099e69e422",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "b98505023b04998d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "agile testing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "agile testing"
+            }
+          },
+          {
+            "id": "a5c00d03ad1c01cd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
+            }
+          },
+          {
+            "id": "50a294d1ed0690be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Agile QA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Agile QA"
+            }
+          },
+          {
+            "id": "97c2e5f70e76ae44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10 Key KPIs Driving Continuous Improvement in QA Teams.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10 Key KPIs Driving Continuous Improvement in QA Teams"
+            }
+          },
+          {
+            "id": "c319412417aafa28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Essential KPIs for Software Testing and QA Metrics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Essential KPIs for Software Testing and QA Metrics"
+            }
+          },
+          {
+            "id": "5a754f9743cd01cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5 Incredibly Useful KPIs for Test Automation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5 Incredibly Useful KPIs for Test Automation"
+            }
+          },
+          {
+            "id": "196a0ac93d6371ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "good practice and lessons learnt.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "good practice and lessons learnt"
+            }
+          },
+          {
+            "id": "6303bbbcaca4f6b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tutorial mcp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tutorial mcp"
+            }
+          },
+          {
+            "id": "b31cfd3acd39613a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EAI/INP_TYPE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "INP_TYPE"
+            }
+          },
+          {
+            "id": "c8d7ce484d8597b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EAI/GROUP_TYPE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GROUP_TYPE"
+            }
+          },
+          {
+            "id": "dd06d9b6511775ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EAI/BROOD_TYPE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BROOD_TYPE"
+            }
+          },
+          {
+            "id": "442548f84710a062",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EAI/IntraE - DGP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IntraE - DGP"
+            }
+          },
+          {
+            "id": "e87a3eea03ab4158",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EAI/IntraE - DGP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IntraE - DGP"
+            }
+          },
+          {
+            "id": "b14899560bf7c4ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EAI/Notas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Notas"
+            }
+          }
+        ],
+        "currentTab": 21
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "79880367fbe4bec0",
+    "type": "split",
+    "children": [
+      {
+        "id": "0627a083042fb013",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a567983655ddc9c9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "87108002fc1c0515",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#agile",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "397995b21363ae6e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bf56612fd6bf2c2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "2005ee356fa5fa33",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7518e7e808a62256",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-07-22 11.23.56.excalidraw.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Drawing 2024-07-22 11.23.56.excalidraw"
+            }
+          },
+          {
+            "id": "f7f605b7bce746f1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-07-22 11.23.56.excalidraw.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Drawing 2024-07-22 11.23.56.excalidraw"
+            }
+          },
+          {
+            "id": "58fb118a61d3b660",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "73ed5b025d4cb92e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-07-22 11.23.56.excalidraw.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Drawing 2024-07-22 11.23.56.excalidraw"
+            }
+          },
+          {
+            "id": "1fe1698653f2a537",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b14899560bf7c4ec",
+  "lastOpenFiles": [
+    "EAI/IntraE - DGP.md",
+    "EAI/INP_TYPE.md",
+    "EAI/GROUP_TYPE.md",
+    "EAI/Duvidas.md",
+    "EAI/DGP SW.md",
+    "EAI/DGP Hardware.md",
+    "EAI/Configuration File.md",
+    "EAI/BROOD_TYPE.md",
+    "EAI/Base vs Target.md",
+    "EAI/Arquitetura.md",
+    "EAI/Analise Base e Target.md",
+    "EAI/ZONE_TYPE.md",
+    "EAI/SEN_DEF_TYPE.md",
+    "EAI/Restore Data Base.md",
+    "EAI/OUT_TYPE.md",
+    "EAI/Notas.md",
+    "Excalidraw/Arch_test_EAI.excalidraw.md",
+    "Excalidraw/Drawing 2025-07-30 09.07.36.excalidraw.md",
+    "Pasted Image 20250729143308_535.png",
+    "Pasted Image 20250729143207_539.png",
+    "Pasted Image 20250729143121_535.png",
+    "Pasted Image 20250729141247_005.png",
+    "Pasted image 20250630143718.png",
+    "Pasted image 20250630143702.png",
+    "EAI/OUT_TYPE",
+    "Pasted image 20250624155731.png",
+    "tutorial mcp.md",
+    "EAI",
+    "robot framework.md",
+    "TESTE do MCP.md",
+    "10.000-hour role.md",
+    "QA/ANSI_IEEE_1059.md",
+    "Git commands.md",
+    "Leo Hatvani.md",
+    "pros robot framework.md",
+    "AI assisted",
+    "Pasted Image 20241007150507_999.png",
+    "Pasted Image 20241007150339_367.png",
+    "Untitled Diagram.svg",
+    "Excalidraw",
+    "Untitled.canvas",
+    "Defining Software Quality",
+    "Zettelkasten",
+    "ML",
+    "QA",
+    "10.000-hour rule",
+    "Templates"
+  ]
+}

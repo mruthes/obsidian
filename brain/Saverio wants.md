@@ -1,0 +1,3 @@
+As I commented to both of you, I kindly ask Marco to start putting together a kind of “white paper” to describe what the ideal approach to testing should look like.
+
+I’m sure that in 2024 there are well-recognized best practices in our industries (embedded systems and digital services) that enable an efficient and scalable QA setup, so let’s describe this dream presenting the benefits of every aspect. To frame properly the analysis, I would cover software quality at 360°, considering not only QA activities but also test-driven design, unit testing during SW development etc.

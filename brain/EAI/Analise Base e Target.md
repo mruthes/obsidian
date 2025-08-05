@@ -18,3 +18,6 @@ target[0] = (unsigned short)(zone[z]->brood_table[0].cool_target + zone[z]->b_Co
 A ***Target[0]*** é utilizada aparentemente para o controle dos fans (ver em *fanctrl.c* -> função ProcPidFans)
 
 
+Source: [[code]]
+Related:
+Tags: #Control_Target 

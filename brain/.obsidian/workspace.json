@@ -8,49 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c319412417aafa28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EAI/Analise Base e Target.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Analise Base e Target"
-            }
-          },
-          {
             "id": "b31cfd3acd39613a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EAI/INP_TYPE.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "INP_TYPE"
-            }
-          },
-          {
-            "id": "442548f84710a062",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "brain/.obsidian/plugins/dataview/styles.css",
-                "bFile": "brain/.obsidian/plugins/dataview/styles.css",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: styles.css"
-            }
-          },
-          {
-            "id": "a6a616d3992dfb1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,38 +22,55 @@
             }
           },
           {
-            "id": "6ab01ffb780805ef",
+            "id": "29a8e83f8f4f4751",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "EAI/integra_diagram_comm.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "integra_diagram_comm.excalidraw"
+            }
+          },
+          {
+            "id": "780c1a0beeb10816",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "EAI/Drawing 2025-09-03 14.08.20.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-09-03 14.08.20.excalidraw"
+            }
+          },
+          {
+            "id": "8e8d71574745f637",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "a322e127dedd97c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Configuration file 2.md",
+                "file": "EAI/Arquitetura.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Configuration file 2"
-            }
-          },
-          {
-            "id": "bfba60a43af2991a",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "EAI/Process.canvas",
-                "viewState": {
-                  "x": 898.1037735849059,
-                  "y": 323.14779874213855,
-                  "zoom": -0.8880156497540891
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Process"
+              "title": "Arquitetura"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -245,59 +220,59 @@
       }
     ],
     "direction": "horizontal",
-    "width": 641.5
+    "width": 686.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "442548f84710a062",
+  "active": "8e8d71574745f637",
   "lastOpenFiles": [
-    "EAI/IntraE.md",
-    "Pasted image 20250805170751.png",
-    "Pasted image 20250805170315.png",
-    "EAI/BROOD_TYPE.md",
-    "EAI/Analise Base e Target.md",
+    "EAI/Logics.md",
+    "Pasted image 20250912144854.png",
+    "EAI/Notas.md",
+    "EAI/DGP SW.md",
+    "EAI/DGP Hardware.md",
+    "EAI/Cria eventos.md",
+    "EAI/Constants.md",
     "EAI/Configuration File.md",
-    "Configuration file 2.md",
-    "EAI/Process.canvas",
-    "Pasted image 20250805164124.png",
-    "Pasted image 20250805163453.png",
-    "Pasted image 20250805161230.png",
+    "EAI/BROOD_TYPE.md",
     "EAI/Base vs Target.md",
     "EAI/Arquitetura.md",
+    "EAI/Arch_test_EAI.excalidraw.md",
+    "EAI/Analise Base e Target.md",
+    "EAI/Drawing 2025-09-03 14.08.20.excalidraw.md",
+    "EAI/Duvidas.md",
+    "EAI/integra_diagram_comm.excalidraw.md",
     "EAI/IntraE.excalidraw.md",
+    "EAI/IntraE.md",
     "EAI/IntraE - DGP.md",
-    "EAI/Constants.md",
-    "EAI/Process - PlantUml.md",
-    "`init.c` file..md",
     "Pasted image 20250805144834.png",
-    "EAI/Mensagem na Tela.md",
+    "Pasted image 20250805161230.png",
+    "EAI/Process.canvas",
+    "EAI/Process - PlantUml.md",
+    "Excalidraw/tdd.excalidraw.md",
+    "Excalidraw/scrum.excalidraw.md",
+    "Excalidraw/sbom.excalidraw.md",
+    "Excalidraw/pipeline_ci_cd.excalidraw.md",
+    "Excalidraw/levels_test_software.excalidraw.md",
+    "Excalidraw/Drawing 2024-07-22 11.23.56.excalidraw.md",
+    "Pasted Image 20250808141012_327.png",
+    "Pasted image 20250805170751.png",
+    "Pasted image 20250805170315.png",
+    "Pasted image 20250805164124.png",
+    "Pasted image 20250805163453.png",
     "Pasted image 20250805110006.png",
-    "EAI/Cria eventos.md",
-    "Excalidraw/digital_probe.excalidraw.md",
-    "Excalidraw/Drawing 2025-08-05 10.10.38.excalidraw.md",
     "Pasted image 20250805100404.png",
-    "Excalidraw/Arch_test_EAI.excalidraw.md",
-    "EAI/INP_TYPE.md",
-    "EAI/GROUP_TYPE.md",
-    "tutorial mcp.md",
-    "good practice and lessons learnt.md",
-    "5 Incredibly Useful KPIs for Test Automation.md",
-    "10 Key KPIs Driving Continuous Improvement in QA Teams.md",
-    "Excalidraw/ci_codemagic.excalidraw.md",
-    "Pasted image 20250805100058.png",
-    "EAI/Notas.md",
-    "Pasted Image 20250729143308_535.png",
     "EAI/OUT_TYPE",
     "EAI",
     "AI assisted",

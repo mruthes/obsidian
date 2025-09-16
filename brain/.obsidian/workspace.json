@@ -49,10 +49,14 @@
             "id": "8e8d71574745f637",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "EAI/Process().md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Process()"
             }
           },
           {
@@ -220,7 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 686.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,9 +241,22 @@
   },
   "active": "8e8d71574745f637",
   "lastOpenFiles": [
+    "EAI/Function Idle.md",
+    "EAI/Process().md",
     "EAI/Logics.md",
-    "Pasted image 20250912144854.png",
     "EAI/Notas.md",
+    "EAI/Process - PlantUml.md",
+    "EAI/Process.canvas",
+    "EAI/OUT_TYPE.md",
+    "EAI/Mensagem na Tela.md",
+    "EAI/IntraE.excalidraw.md",
+    "EAI/IntraE - DGP.md",
+    "EAI/IntraE.md",
+    "EAI/integra_diagram_comm.excalidraw.md",
+    "EAI/INP_TYPE.md",
+    "EAI/GROUP_TYPE.md",
+    "EAI/Duvidas.md",
+    "EAI/Drawing 2025-09-03 14.08.20.excalidraw.md",
     "EAI/DGP SW.md",
     "EAI/DGP Hardware.md",
     "EAI/Cria eventos.md",
@@ -250,22 +267,10 @@
     "EAI/Arquitetura.md",
     "EAI/Arch_test_EAI.excalidraw.md",
     "EAI/Analise Base e Target.md",
-    "EAI/Drawing 2025-09-03 14.08.20.excalidraw.md",
-    "EAI/Duvidas.md",
-    "EAI/integra_diagram_comm.excalidraw.md",
-    "EAI/IntraE.excalidraw.md",
-    "EAI/IntraE.md",
-    "EAI/IntraE - DGP.md",
+    "Pasted image 20250912144854.png",
     "Pasted image 20250805144834.png",
     "Pasted image 20250805161230.png",
-    "EAI/Process.canvas",
-    "EAI/Process - PlantUml.md",
     "Excalidraw/tdd.excalidraw.md",
-    "Excalidraw/scrum.excalidraw.md",
-    "Excalidraw/sbom.excalidraw.md",
-    "Excalidraw/pipeline_ci_cd.excalidraw.md",
-    "Excalidraw/levels_test_software.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-22 11.23.56.excalidraw.md",
     "Pasted Image 20250808141012_327.png",
     "Pasted image 20250805170751.png",
     "Pasted image 20250805170315.png",

@@ -44,3 +44,8 @@ call back para GroupCfgrProcess quando altera qualquer valor.
 Zone.c
 função ZoneCnfgControl 
 
+
+
+Temperaturas para os sensores
+3185 (0x0c71) = 80.9 
+3150 (0x0c4e) = 75.3

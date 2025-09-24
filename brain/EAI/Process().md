@@ -19,4 +19,3 @@ Function `process()` is the central periodic scheduler. It checks time via `Chec
   - Sends viewer/NETVAR items (mode switch, speeds, processing), writes history/inventory, and redistributes data (when enabled).
   - Advances timers/counters and executes minute/hour/day subsystems.
   - Performs serial servicing and background tasks in non-viewer builds.
-

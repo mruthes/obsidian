@@ -1,94 +1,41 @@
 {
   "main": {
-    "id": "de8057e38ad6cc86",
+    "id": "fcf1c0c30730d655",
     "type": "split",
     "children": [
       {
-        "id": "0131eddcdfa88baf",
+        "id": "21b95fad1a73d8c7",
         "type": "tabs",
         "children": [
           {
-            "id": "b31cfd3acd39613a",
+            "id": "f5a800f24c77154e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EAI/Configuration File.md",
+                "file": "EAI/Main Extendido.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Configuration File"
-            }
-          },
-          {
-            "id": "29a8e83f8f4f4751",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "EAI/integra_diagram_comm.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "integra_diagram_comm.excalidraw"
-            }
-          },
-          {
-            "id": "780c1a0beeb10816",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "EAI/Drawing 2025-09-03 14.08.20.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-09-03 14.08.20.excalidraw"
-            }
-          },
-          {
-            "id": "8e8d71574745f637",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EAI/Process().md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Process()"
-            }
-          },
-          {
-            "id": "a322e127dedd97c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EAI/Arquitetura.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Arquitetura"
+              "title": "Main Extendido"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "79880367fbe4bec0",
+    "id": "99a25d9063818885",
     "type": "split",
     "children": [
       {
-        "id": "0627a083042fb013",
+        "id": "294fc1393a8f67df",
         "type": "tabs",
         "children": [
           {
-            "id": "a567983655ddc9c9",
+            "id": "c608c5d81d01b1b6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -101,12 +48,12 @@
             }
           },
           {
-            "id": "87108002fc1c0515",
+            "id": "653d5ee81bb4771e",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Control_Target",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +65,7 @@
             }
           },
           {
-            "id": "397995b21363ae6e",
+            "id": "1e12c70e9d74b245",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -134,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "bf56612fd6bf2c2e",
+    "id": "9647ff061f9420a9",
     "type": "split",
     "children": [
       {
-        "id": "2005ee356fa5fa33",
+        "id": "5683dce1a476df84",
         "type": "tabs",
         "children": [
           {
-            "id": "7518e7e808a62256",
+            "id": "e197971fb5fc2511",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-22 11.23.56.excalidraw.md",
+                "file": "EAI/Main Extendido.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,50 +104,55 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Drawing 2024-07-22 11.23.56.excalidraw"
+              "title": "Backlinks for Main Extendido"
             }
           },
           {
-            "id": "f7f605b7bce746f1",
+            "id": "141365c0940cc999",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-22 11.23.56.excalidraw.md",
+                "file": "EAI/Main Extendido.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Drawing 2024-07-22 11.23.56.excalidraw"
+              "title": "Outgoing links from Main Extendido"
             }
           },
           {
-            "id": "58fb118a61d3b660",
+            "id": "6e69d88606dcfa68",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "73ed5b025d4cb92e",
+            "id": "392e31f152a6a207",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-22 11.23.56.excalidraw.md"
+                "file": "EAI/Main Extendido.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Drawing 2024-07-22 11.23.56.excalidraw"
+              "title": "Outline of Main Extendido"
             }
           },
           {
-            "id": "1fe1698653f2a537",
+            "id": "d94121b0d85e7373",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -210,7 +162,7 @@
             }
           },
           {
-            "id": "478ec8476a0836ee",
+            "id": "bedf7bfe42bc22f5",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -224,69 +176,33 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8e8d71574745f637",
+  "active": "f5a800f24c77154e",
   "lastOpenFiles": [
-    "EAI/Function Idle.md",
-    "EAI/Process().md",
+    "EAI/Main Extendido.md",
+    "main_2.svg",
+    "main_loop 1.svg",
+    "main_loop.svg",
+    "EAI/Main.c.md",
+    "main.svg",
     "EAI/Logics.md",
-    "EAI/Notas.md",
-    "EAI/Process - PlantUml.md",
-    "EAI/Process.canvas",
-    "EAI/OUT_TYPE.md",
-    "EAI/Mensagem na Tela.md",
-    "EAI/IntraE.excalidraw.md",
-    "EAI/IntraE - DGP.md",
-    "EAI/IntraE.md",
-    "EAI/integra_diagram_comm.excalidraw.md",
-    "EAI/INP_TYPE.md",
-    "EAI/GROUP_TYPE.md",
-    "EAI/Duvidas.md",
-    "EAI/Drawing 2025-09-03 14.08.20.excalidraw.md",
-    "EAI/DGP SW.md",
-    "EAI/DGP Hardware.md",
-    "EAI/Cria eventos.md",
-    "EAI/Constants.md",
-    "EAI/Configuration File.md",
-    "EAI/BROOD_TYPE.md",
-    "EAI/Base vs Target.md",
-    "EAI/Arquitetura.md",
-    "EAI/Arch_test_EAI.excalidraw.md",
-    "EAI/Analise Base e Target.md",
-    "Pasted image 20250912144854.png",
-    "Pasted image 20250805144834.png",
-    "Pasted image 20250805161230.png",
-    "Excalidraw/tdd.excalidraw.md",
-    "Pasted Image 20250808141012_327.png",
-    "Pasted image 20250805170751.png",
-    "Pasted image 20250805170315.png",
-    "Pasted image 20250805164124.png",
-    "Pasted image 20250805163453.png",
-    "Pasted image 20250805110006.png",
-    "Pasted image 20250805100404.png",
-    "EAI/OUT_TYPE",
-    "EAI",
-    "AI assisted",
-    "Excalidraw",
-    "Defining Software Quality",
-    "Zettelkasten",
-    "ML",
-    "QA",
-    "10.000-hour rule",
-    "Templates"
+    "EAI/IO Defs.md",
+    "EAI/Process.c.md",
+    "Excalidraw/Drawing 2025-09-24 09.30.12.excalidraw.md",
+    "EAI/Loop.c.md"
   ]
 }

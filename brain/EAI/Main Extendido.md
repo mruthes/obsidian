@@ -1,5 +1,99 @@
 
-![[main.svg]]
+```mermaid
+graph TD
+
+    A[Program Start] --> B[InitCVIRTE]
+
+    B --> C[CheckForDuplicateAppInstance]
+
+    C --> D[MallocBuffers]
+
+    D --> E[init Hardware & Variables]
+
+    E --> F[CheckOptionFlags Registry]
+
+    F --> G[LoadPanel aei.uir]
+
+    G --> H[restore Load Database]
+
+    H --> I[Main Control Loop]
+
+    I --> J[ScrollScreen Every 30s]
+
+    I --> K[process Main Processing]
+
+    I --> L[ProcessSystemEvents Every 10 Cycles]
+
+    I --> M[HeaderUpdate]
+
+    K --> N[CheckClock]
+
+    N --> O{tock?}
+
+    O -->|Yes| P[Secs Every Second]
+
+    O -->|No| Q[Idle Background]
+
+    P --> R{tic_min?}
+
+    R -->|Yes| S[by_minute]
+
+    R -->|No| T{tic_hour?}
+
+    T -->|Yes| U[hourly]
+
+    T -->|No| V{tic_day?}
+
+    V -->|Yes| W[daily]
+
+    M --> X[DispOutsideData]
+
+    M --> Y[DispTime]
+
+    M --> Z[DispAlarmBanner]
+
+    AA[MenuButton Events] --> BB[CNFG_BUTTON]
+
+    AA --> CC[ENV_BUTTON]  
+
+    AA --> DD[EGG_BUTTON]
+
+    AA --> EE[PROCESS_BUTTON]
+
+    AA --> FF[ALARM_BUTTON]
+
+    AA --> GG[HELP_BUTTON]
+
+    BB --> HH[Load menusecr.uir]
+
+    CC --> II[Load overenv1.uir]
+
+    DD --> JJ[Load overegg1.uir]
+
+    EE --> KK[Load ProcRm.uir]
+
+    I --> LL{done?}
+
+    LL -->|No| I
+
+    LL -->|Yes| MM[Cleanup & Exit]
+
+    classDef initClass fill:#e8f5e8,stroke:#4caf50,stroke-width:2px
+
+    classDef loopClass fill:#e3f2fd,stroke:#2196f3,stroke-width:2px
+
+    classDef uiClass fill:#fff3e0,stroke:#ff9800,stroke-width:2px
+
+    classDef processClass fill:#f3e5f5,stroke:#9c27b0,stroke-width:2px
+
+    class A,B,C,D,E,F,G,H initClass
+
+    class I,J,K,L,M,LL loopClass
+
+    class AA,BB,CC,DD,EE,FF,GG,HH,II,JJ,KK uiClass
+
+    class N,O,P,Q,R,S,T,U,V,W processClass
+```
 
 
 
@@ -33,8 +127,71 @@ restore()                       // Load historical database from disk
 
 ### **Phase 2: Main Control Loop (Lines 890-916)**
 
-![[main_loop 1.svg]]
+``` mermaid
+flowchart TD
 
+    A[Main Control Loop] --> B{Screen Auto-Scroll?}
+
+    B -->|Yes & Timer Expired| C[ScrollScreen]
+
+    B -->|No| D[process]
+
+    C --> D
+
+    D --> E[CheckClock]
+
+    E --> F{tock = TRUE?}
+
+    F -->|Yes| G[Secs Timer Updates]
+
+    F -->|No| H[Idle Background Processing]
+
+    G --> I[Zone Processing]
+
+    H --> I
+
+    I --> J[Sensor Reading]
+
+    I --> K[Environmental Control]
+
+    I --> L[Egg Flow Management]
+
+    L --> M[Count Cycles]
+
+    M --> N{count >= 10?}
+
+    N -->|Yes| O[ProcessSystemEvents]
+
+    N -->|No| P[HeaderUpdate]
+
+    O --> Q[do_auto_hist]
+
+    Q --> P
+
+    P --> R[DispOutsideData]
+
+    P --> S[DispTime]
+
+    P --> T[DispAlarmBanner]
+
+    T --> U{done = TRUE?}
+
+    U -->|No| A
+
+    U -->|Yes| V[System Shutdown]
+
+    classDef loopClass fill:#e3f2fd,stroke:#2196f3,stroke-width:2px
+
+    classDef processClass fill:#f3e5f5,stroke:#9c27b0,stroke-width:2px
+
+    classDef displayClass fill:#fff3e0,stroke:#ff9800,stroke-width:2px
+
+    class A,B,C,M,N,U,V loopClass
+
+    class D,E,F,G,H,I,J,K,L processClass
+
+    class O,P,Q,R,S,T displayClass
+```
 ### **Phase 3: User Interface Management**
 
 **🎛️ Menu Button System (`MenuButton()` Function):**
@@ -57,7 +214,60 @@ Each button loads different operational screens:
 
 **📊 Header Information System (`HeaderUpdate()`):**
 
-![[main_2.svg]]**🌡️ Outside Data Display (`DispOutsideData()`):**
+``` mermaid
+flowchart LR
+
+    A["HeaderUpdate"] --> B["Site Name Display"] & C["Outside Data Rotation"] & D["Date/Time Display"] & E["Alarm Banner"]
+
+    C --> F["Weather Station Data"] & G["Outside Temperature"] & H["Humidity"] & I["Wind Speed/Direction"] & J["Rain Rate"] & K["Barometric Pressure"]
+
+    F --> L["15 Different Parameters"]
+
+    L --> M["5-Second Rotation"]
+
+    E --> N["Highest Priority Alarm"] & O["Scrolling Alarm Messages"]
+
+  
+
+     A:::headerClass
+
+     B:::headerClass
+
+     C:::weatherClass
+
+     D:::headerClass
+
+     E:::alarmClass
+
+     F:::weatherClass
+
+     G:::weatherClass
+
+     H:::weatherClass
+
+     I:::weatherClass
+
+     J:::weatherClass
+
+     K:::weatherClass
+
+     L:::weatherClass
+
+     M:::weatherClass
+
+     N:::alarmClass
+
+     O:::alarmClass
+
+    classDef headerClass fill:#e8f5fe,stroke:#03a9f4,stroke-width:2px
+
+    classDef weatherClass fill:#e8f5e8,stroke:#4caf50,stroke-width:2px
+
+    classDef alarmClass fill:#ffebee,stroke:#f44336,stroke-width:2px
+
+```
+
+**🌡️ Outside Data Display (`DispOutsideData()`):**
 
 Cycles through **15+ different weather parameters** every 5 seconds:
 - **Outside Temperature** (with negative handling)
@@ -132,3 +342,15 @@ CheckOptionFlags()          // Reads from HKEY_CURRENT_USER
 - **Event Processing**: Non-blocking UI event handling
 
 **MAIN.C** essentially functions as the **operating system kernel** for the poultry automation system, coordinating between **hardware I/O**, **user interface**, **data processing**, and **communication systems** while maintaining **real-time performance** critical for industrial automation.
+
+
+
+```mermaid
+graph TD
+    A[Ideia Inicial] --> B(Pesquisa)
+    B --> C{É viável?}
+    C -->|Sim| D[Implementar]
+    C -->|Não| E[Reavaliar]
+    D --> F[Testar]
+    F --> G[Concluído]
+```
